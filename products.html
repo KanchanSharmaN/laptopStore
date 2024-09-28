@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Store | Products</title>
+    <link rel="stylesheet" href="style2.css">
+    <style>
+        /* Add your custom CSS here */
+        .product-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 16px;
+            text-align: center;
+            margin: 16px;
+        }
+
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .product-card h2 {
+            font-size: 1.5em;
+            margin: 8px 0;
+        }
+
+        .price {
+            color: #e74c3c;
+            font-size: 1.2em;
+            margin: 8px 0;
+        }
+
+        .rating {
+            margin: 8px 0;
+        }
+
+        .rating span {
+            font-size: 1.2em;
+            color: #f39c12;
+        }
+
+        .color-options {
+            margin: 8px 0;
+        }
+
+        .color-options span {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+
+        .color-red { background-color: red; }
+        .color-blue { background-color: blue; }
+        .color-green { background-color: green; }
+        .color-black { background-color: black; }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="web.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="product-filters">
+            <h1>Our Products</h1>
+            <div class="filter-bar">
+                <select>
+                    <option value="all">All Categories</option>
+                    <option value="gaming">Gaming</option>
+                    <option value="business">Business</option>
+                    <option value="student">Student</option>
+                </select>
+                <select>
+                    <option value="all">All Prices</option>
+                    <option value="low-high">Price: Low to High</option>
+                    <option value="high-low">Price: High to Low</option>
+                </select>
+                <button class="filter-button">Apply Filters</button>
+            </div>
+        </section>
+
+        <section class="carousel">
+            <h2>Featured Products</h2>
+            <div class="carousel-container">
+                <div class="carousel-item">
+                    <a  href="product-details.html">
+                    <img src="https://p2-ofp.static.pub//fes/cms/2024/06/24/529uhpkn8j2z57v1wc5xajdseb78j8228261.jpg" alt="Lenovo IdeaPad">
+                    <h3>Lenovo IdeaPad</h3>
+                    <p>Powerful performance in a sleek design.</p>
+                </a>
+                </div>
+                <div class="carousel-item">
+                    <a  href="product-details.html">
+                    <img src="https://m.media-amazon.com/images/I/61aEgC4GhIL._SX679_.jpg" alt="HP Laptop ">
+                    <h3>HP Laptop </h3>
+                    <p>Lightweight and versatile for everyday use.</p>
+                </a>
+                </div>
+                <div class="carousel-item">
+                    <a  href="product-details.html">
+                    <img src="https://m.media-amazon.com/images/I/81E2srXhKVL._SX679_.jpg" alt="Acer Predator Helios Neo 16 Gaming Laptop">
+                    <h3>Acer Predator Helios Neo 16 Gaming Laptop</h3>
+                    <p>Gaming power for the ultimate experience.</p>
+                </a>
+                </div>
+                <div class="carousel-item">
+                    <a  href="product-details.html">
+                    <img src="https://p2-ofp.static.pub/fes/cms/2023/04/28/a324175u4gseowexgc87reniy00il4778144.png" alt="ThinkPad X1 Yoga">
+                    <h3>ThinkPad X1 Yoga</h3>
+                    <p>Precision in every click.</p>
+                </a>
+                </div>
+                <div class="carousel-item">
+                    <a  href="product-details.html"></a>
+                    <img src="https://th.bing.com/th?id=OPAC.x1SelsKz5p6%2bWA474C474&w=592&h=550&o=5&dpr=1.3&pid=21.1" alt="Asus HN124W TUF A15 Gaming Laptop">
+                    <h3>Asus HN124W TUF A15 Gaming Laptop</h3>
+                    <p>Elevate your gameplay.</p>
+                </div>
+                <div class="carousel-item">
+                    <a  href="product-details.html">
+                    <img src="https://p2-ofp.static.pub//fes/cms/2024/02/28/ttf4cjx88gkojhi5obd3025uix1ejf180533.png" alt="IdeaPad Pro 5 Intel">
+                    <h3>IdeaPad Pro 5 Intel</h3>
+                    <p>Built for bold moves.</p>
+                </a>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="product-listing">
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://p2-ofp.static.pub//fes/cms/2024/06/24/529uhpkn8j2z57v1wc5xajdseb78j8228261.jpg" alt="Lenovo IdeaPad">
+                    <h2>Lenovo IdeaPad</h2>
+                    <p>Powerful performance in a sleek design.</p>
+                    <span class="price">$1200</span>
+                    <div class="rating">
+                        <span>&#9733;&#9733;&#9733;&#9733;&#9734;</span> <!-- 4 stars -->
+                    </div>
+                    <div class="color-options">
+                        <span class="color-grey"></span>
+                        <span class="color-bluee"></span>
+                        <span class="color-black"></span>
+                    </div>
+                    <div class="product-actions">
+                        <a href="product-details.html" class="details-button">View Details</a>
+                        <button class="cart-button">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQSKdsxkzgaQSIV1-AdiK4ztkDSvPOUdXhNfgeyPClVNXUyH2NjzOkFIAc_Gx_tZ9rb7kXSJ4SgKJ89i-j14d4EPjPEbKd0NwliKoYb9JY&usqp=CAE" alt="Asus Rog Zephyrus">
+                    <h2>Asus Rog Zephyrus G15 Slim Flagship Gaming Laptop</h2>
+                    <p>Powerful Gaming and graphics</p>
+                    <span class="price">$2100</span>
+                    <div class="rating">
+                        <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span> <!-- 5 stars -->
+                    </div>
+                    <div class="color-options">
+                        <span class="color-black"></span>
+                        <span class="color-purple"></span>
+                    </div>
+                    <div class="product-actions">
+                        <a href="product-details.html" class="details-button">View Details</a>
+                        <button class="cart-button">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSHrBPsTFI1KEhkc-ZnrGpbdqCupRiF5TqgTs-rmpmmfo6ZXDz1ntatX_Lo860EVZxaxvFOgiD0_no4wCcFgbTWM_d3QShDch08zn6T_hx5dj1hshPt6kJkAw&usqp=CAE" alt="HP OMEN Gaming Laptop">
+                    <h2>HP OMEN Gaming Laptop</h2>
+                    <p>Gaming power for the ultimate experience.</p>
+                    <span class="price">$1500</span>
+                    <div class="rating">
+                        <span>&#9733;&#9733;&#9733;&#9733;</span> <!-- 4 stars -->
+                    </div>
+                    <div class="color-options">
+                        <span class="color-black"></span>
+                        <span class="color-grey"></span>
+                    </div>
+                    <div class="product-actions">
+                        <a href="product-details.html" class="details-button">View Details</a>
+                        <button class="cart-button">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSgAYxeEMktEZTnCi0DU8BX-cCF-4QtJ3sTwqpuyRBbBr_Ntb8u2sx2HB-lRYYeE_6A5-4ATe5jEZkbJr4WJy_gJ_N6ODy78u3OylbmdJk8w8OI390V5Inw&usqp=CAE" alt="Hp Victus Core I7 12th Gen">
+                    <h2>Hp Victus Core I7 12th Gen</h2>
+                    <p>Performance that thrills.</p>
+                    
+                    <span class="price">$900</span>
+                    <div class="rating">
+                        <span>&#9733;&#9733;&#9733;&#9733;</span> <!-- 4 stars -->
+                    </div>
+                    <div class="color-options">
+                        <span class="color-purple"></span>
+                        <span class="color-ocean"></span>
+                    </div>
+                    <div class="product-actions">
+                        <a href="product-details.html" class="details-button">View Details</a>
+                        <button class="cart-button">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQllSulufv9gfM2e8j3zDExzZNbysf6uv4GSmK7MosUsDOUBYF_Ebu4VG7ULizlMZkGwxggnjq67ahbWLZ945md8h6oODbFXDDNaVfVCQJku4ymX15K0XSQ&usqp=CAE" alt="MSI Katana A15 AI">
+                    <h2>MSI Katana A15 AI</h2>
+                    <p>Power meets play.</p>
+                    <span class="price">$1100</span>
+                    <div class="rating">
+                        <span>&#9733;&#9733;&#9733;&#9733;</span> <!-- 4 stars -->
+                    </div>
+                    <div class="color-options">
+                        <span class="color-bluee"></span>
+                        <span class="color-grey"></span>
+                    </div>
+                    <div class="product-actions">
+                        <a href="product-details.html" class="details-button">View Details</a>
+                        <button class="cart-button">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTYWH20Do9nx73Zc6UrQHanU-FbrWmH5WHaapY4QdSYC081oupUb18YZvaJS-6Sio2o528fVbCuisEgirjqs6OGcN4eev5M&usqp=CAY" alt="Lenovo Legion Y545">
+                    <h2>Lenovo Legion Y545</h2>
+                    <p>Command with confidence.</p>
+                    <span class="price">$1000</span>
+                    <div class="rating">
+                        <span>&#9733;&#9733;&#9733;&#9733;</span> <!-- 4 stars -->
+                    </div>
+                    <div class="color-options">
+                        <span class="color-wine"></span>
+                        <span class="color-grey"></span>
+                    </div>
+                    <div class="product-actions">
+                        <a href="product-details.html" class="details-button">View Details</a>
+                        <button class="cart-button">Add to Cart</button>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Laptop Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+
+
